@@ -125,7 +125,7 @@ public final class WSConsole extends JavaPlugin {
         Bukkit.getLogger().removeHandler(handler);
         Plugin[] plugins = getServer().getPluginManager().getPlugins();
         for (Plugin plugin : plugins) {
-            plugin.getLogger().addHandler(handler);
+            plugin.getLogger().removeHandler(handler);
         }
 
     }
