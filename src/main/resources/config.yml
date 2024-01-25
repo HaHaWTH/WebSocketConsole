@@ -1,0 +1,10 @@
+#WSConsole
+
+bindIp: 0.0.0.0
+
+bindPort: 8080
+
+startOnEnabled: true
+
+accounts:
+  #- username|password

@@ -1,0 +1,15 @@
+name: WSConsole
+version: '${project.version}'
+main: io.wdsj.wsconsole.WSConsole
+api-version: '1.13'
+permissions:
+  wsconsole.manage:
+    default: op
+    description: Allows you to start the console
+commands:
+  wsconsole:
+    description: Main command for the plugin
+    usage: /wsconsole
+    permission: wsconsole.manage
+    aliases:
+      - wsc
